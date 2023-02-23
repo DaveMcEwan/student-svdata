@@ -1,0 +1,54 @@
+SourceText
+ Description
+  ModuleDeclaration
+   ModuleDeclarationAnsi
+    ModuleAnsiHeader
+     ModuleKeyword
+      Keyword
+       Token @line:1: module
+       WhiteSpace
+        SpaceToken @line:1: <<<<< >>>>>
+     ModuleIdentifier
+      Identifier
+       SimpleIdentifier
+        Token @line:1: a
+        WhiteSpace
+         SpaceToken @line:1: <<<<< >>>>>
+     ListOfPortDeclarations
+      Symbol
+       Token @line:1: (
+      AnsiPortDeclaration
+       AnsiPortDeclarationNet
+        NetPortHeaderOrInterfacePortHeader
+         NetPortHeader
+          PortDirection
+           Keyword
+            Token @line:1: input
+            WhiteSpace
+             SpaceToken @line:1: <<<<< >>>>>
+          NetPortType
+           NetPortTypeDataType
+            DataTypeOrImplicit
+             ImplicitDataType
+        PortIdentifier
+         Identifier
+          SimpleIdentifier
+           Token @line:1: a
+           WhiteSpace
+            SpaceToken @line:1: <<<<< >>>>>
+           WhiteSpace
+            Comment
+             CommentToken @line:1: <<<<</* port */>>>>>
+      Symbol
+       Token @line:1: )
+     Symbol
+      Token @line:1: ;
+      WhiteSpace
+       Comment
+        CommentToken @line:1: <<<<</*comment*/>>>>>
+      WhiteSpace
+       NewlineToken @line:1: <<<<<
+>>>>>
+    Keyword
+     Token @line:2: endmodule
+

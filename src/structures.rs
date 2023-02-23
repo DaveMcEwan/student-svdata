@@ -155,6 +155,7 @@ impl fmt::Display for SvModuleDeclaration {
         writeln!(f, "Module:")?;
         writeln!(f, "  Identifier: {}", self.identifier)?;
         writeln!(f, "  Filepath: {}", self.filepath)?;
+        writeln!(f, "  Comments: {:?}", self.comments)?;
 
         for port in &self.ports {
             write!(f, "{}", port)?;

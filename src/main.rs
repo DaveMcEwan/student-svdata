@@ -19,7 +19,7 @@ use verilog_filelist_parser; // DBG
 #[clap(long_version(option_env!("LONG_VERSION").unwrap_or(env!("CARGO_PKG_VERSION"))))]
 pub struct Opt {
     /// Source file
-    #[clap(required_unless_present_any = &["filelist"])]
+    #[clap(required_unless_present_any = &["filelist"], default_value="test.sv")]
     pub files: Vec<PathBuf>,
 
     /// File list
