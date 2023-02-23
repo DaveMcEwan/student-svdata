@@ -15,6 +15,7 @@ pub fn module_declaration_ansi(
         ports: Vec::new(),
         instances: Vec::new(),
         filepath: String::from(filepath),
+        comments: None,
     };
 
     let mut prev_port: Option<SvPort> = None;
@@ -129,6 +130,7 @@ pub fn module_declaration_nonansi(
         ports: Vec::new(),
         instances: Vec::new(),
         filepath: String::from(_filepath),
+        comments: None,
     };
     // TODO
     ret
