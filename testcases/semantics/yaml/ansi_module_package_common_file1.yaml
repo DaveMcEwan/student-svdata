@@ -1,6 +1,7 @@
 ---
 modules:
   - identifier: TestModule_A
+    comments: []
     parameters:
       - identifier: a
         expression: "8'sb10101010"
@@ -85,6 +86,7 @@ modules:
     filepath: testcases/semantics/sv/ansi_module_package_common_file1.sv
   - identifier: TestModule_B
     parameters: []
+    comments: []
     ports:
       - identifier: a
         direction: Inout
