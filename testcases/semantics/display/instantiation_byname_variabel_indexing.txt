@@ -1,6 +1,7 @@
 Module:
   Identifier: testmodule
   Filepath: testcases/semantics/sv/instantiation_byname_variabel_indexing.sv
+  Comments: []
   Port: 
     Identifier: a
     Direction: Input

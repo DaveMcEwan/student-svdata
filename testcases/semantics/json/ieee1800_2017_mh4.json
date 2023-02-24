@@ -3,6 +3,7 @@
     {
       "identifier": "mh4",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "x",

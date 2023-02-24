@@ -3,6 +3,7 @@
     {
       "identifier": "fulladd",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "s",
@@ -71,6 +72,7 @@
     {
       "identifier": "fulladder_4bit",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "sum",

@@ -2,6 +2,7 @@
 modules:
   - identifier: m0
     parameters: []
+    comments: []
     ports:
       - identifier: s_in
         direction: Input
@@ -39,6 +40,7 @@ modules:
     filepath: testcases/semantics/sv/instantiation_byname_circular_datagraph.sv
   - identifier: m1
     parameters: []
+    comments: []
     ports:
       - identifier: c_in
         direction: Input
@@ -74,6 +76,7 @@ modules:
     filepath: testcases/semantics/sv/instantiation_byname_circular_datagraph.sv
   - identifier: m2
     parameters: []
+    comments: []
     ports:
       - identifier: w_in
         direction: Input
@@ -109,6 +112,7 @@ modules:
     filepath: testcases/semantics/sv/instantiation_byname_circular_datagraph.sv
   - identifier: testmodule
     parameters: []
+    comments: []
     ports:
       - identifier: o
         direction: Output

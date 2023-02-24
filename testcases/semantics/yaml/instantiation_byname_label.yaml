@@ -2,6 +2,7 @@
 modules:
   - identifier: foo
     parameters: []
+    comments: []
     ports:
       - identifier: a
         direction: Input

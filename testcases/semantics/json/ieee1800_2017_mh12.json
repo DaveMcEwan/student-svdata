@@ -3,6 +3,7 @@
     {
       "identifier": "mh12",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "x",

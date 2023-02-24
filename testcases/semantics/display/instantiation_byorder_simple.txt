@@ -1,6 +1,7 @@
 Module:
   Identifier: mydesign
   Filepath: testcases/semantics/sv/instantiation_byorder_simple.sv
+  Comments: []
   Port: 
     Identifier: x
     Direction: Input
@@ -49,6 +50,7 @@ Module:
 Module:
   Identifier: mydesign2
   Filepath: testcases/semantics/sv/instantiation_byorder_simple.sv
+  Comments: []
   Port: 
     Identifier: o
     Direction: Output

@@ -3,6 +3,7 @@
     {
       "identifier": "testmodule",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "a",

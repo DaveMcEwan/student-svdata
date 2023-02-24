@@ -1,6 +1,7 @@
 Module:
   Identifier: mh18
   Filepath: testcases/semantics/sv/ieee1800_2017_mh18.sv
+  Comments: []
   Port: 
     Identifier: x
     Direction: Output

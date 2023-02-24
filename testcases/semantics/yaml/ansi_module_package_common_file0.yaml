@@ -3,6 +3,7 @@ modules:
   - identifier: TestModule_A
     parameters: []
     comments: []
+    comments: []
     ports:
       - identifier: a
         direction: Input

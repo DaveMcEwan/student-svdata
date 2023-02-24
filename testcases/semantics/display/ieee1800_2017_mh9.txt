@@ -1,6 +1,7 @@
 Module:
   Identifier: mh9
   Filepath: testcases/semantics/sv/ieee1800_2017_mh9.sv
+  Comments: []
   Port: 
     Identifier: x
     Direction: Output

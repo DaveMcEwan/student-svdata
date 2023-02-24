@@ -1,6 +1,7 @@
 Module:
   Identifier: mh19
   Filepath: testcases/semantics/sv/ieee1800_2017_mh19.sv
+  Comments: []
   Port: 
     Identifier: x
     Direction: Ref

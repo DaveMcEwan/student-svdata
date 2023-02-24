@@ -3,6 +3,7 @@
     {
       "identifier": "M",
       "parameters": [],
+      "comments": [],
       "ports": [],
       "instances": [
         {

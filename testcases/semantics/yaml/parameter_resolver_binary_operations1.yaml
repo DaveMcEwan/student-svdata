@@ -1,6 +1,7 @@
 ---
 modules:
   - identifier: TestModule
+    comments: []
     parameters:
       - identifier: a
         expression: "8'sb10101010>>1"

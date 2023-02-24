@@ -1,6 +1,7 @@
 Module:
   Identifier: mkM1
   Filepath: testcases/semantics/sv/instantiation_byname_multiple_modules.sv
+  Comments: []
   Port: 
     Identifier: a_in
     Direction: Input
@@ -27,6 +28,7 @@ Module:
 Module:
   Identifier: mkM2
   Filepath: testcases/semantics/sv/instantiation_byname_multiple_modules.sv
+  Comments: []
   Port: 
     Identifier: b_in
     Direction: Input
@@ -58,6 +60,7 @@ Module:
 Module:
   Identifier: mkM3
   Filepath: testcases/semantics/sv/instantiation_byname_multiple_modules.sv
+  Comments: []
   Port: 
     Identifier: c_in
     Direction: Input
@@ -94,6 +97,7 @@ Module:
 Module:
   Identifier: mkM4
   Filepath: testcases/semantics/sv/instantiation_byname_multiple_modules.sv
+  Comments: []
   Port: 
     Identifier: d_in
     Direction: Input

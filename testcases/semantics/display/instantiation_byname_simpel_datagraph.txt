@@ -1,6 +1,7 @@
 Module:
   Identifier: M1
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in1_1
     Direction: Input
@@ -27,6 +28,7 @@ Module:
 Module:
   Identifier: M2
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in2_1
     Direction: Input
@@ -64,6 +66,7 @@ Module:
 Module:
   Identifier: M3
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in3_1
     Direction: Input
@@ -101,6 +104,7 @@ Module:
 Module:
   Identifier: M4
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in4_1
     Direction: Input
@@ -143,6 +147,7 @@ Module:
 Module:
   Identifier: M5
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in5_1
     Direction: Input
@@ -195,6 +200,7 @@ Module:
 Module:
   Identifier: top_module
   Filepath: testcases/semantics/sv/instantiation_byname_simpel_datagraph.sv
+  Comments: []
   Port: 
     Identifier: in_1
     Direction: Input

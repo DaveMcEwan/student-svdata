@@ -1,6 +1,7 @@
 Module:
   Identifier: TestModule
   Filepath: testcases/semantics/sv/ansi_port_comment_keyword1.sv
+  Comments: []
   Port: 
     Identifier: a
     Direction: Input

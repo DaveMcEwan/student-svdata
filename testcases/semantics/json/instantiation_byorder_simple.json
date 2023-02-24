@@ -3,6 +3,7 @@
     {
       "identifier": "mydesign",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "x",
@@ -59,6 +60,7 @@
     {
       "identifier": "mydesign2",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "o",

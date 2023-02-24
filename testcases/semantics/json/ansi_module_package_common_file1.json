@@ -112,6 +112,7 @@
       "identifier": "TestModule_B",
       "parameters": [],
       "comments": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "a",

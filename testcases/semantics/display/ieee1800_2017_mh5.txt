@@ -1,6 +1,7 @@
 Module:
   Identifier: mh5
   Filepath: testcases/semantics/sv/ieee1800_2017_mh5.sv
+  Comments: []
   Port: 
     Identifier: x
     Direction: Input
