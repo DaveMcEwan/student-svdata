@@ -15,12 +15,25 @@ pub fn module_declaration_ansi(
         ports: Vec::new(),
         instances: Vec::new(),
         filepath: String::from(filepath),
-        comments: None,
+        comments: Vec::new(),
     };
 
     let mut prev_port: Option<SvPort> = None;
+    let mut parent_stack = vec![];
 
-    for node in m {
+    for event in m.into_iter().event() {
+        let node = match event {
+            NodeEvent::Enter(x) => {
+                parent_stack.push(x.to_string());
+                x
+            }
+            NodeEvent::Leave(x) => {
+                parent_stack.pop();
+                x
+            }
+        };
+        println!("{:?}", &parent_stack);
+
         match node {
             RefNode::ParameterPortList(p) => {
                 let mut common_scope_found: bool = false;
@@ -114,12 +127,14 @@ pub fn module_declaration_ansi(
             }
 
             RefNode::Comment(p) => {
-                ret.comments = get_comment(RefNode::Comment(p), syntax_tree);
+                if !parent_stack.contains(&"ListOfPortDeclarations".to_string()) {
+                    ret.comments
+                        .push(get_comment(RefNode::Comment(p), syntax_tree).unwrap());
+                }
             }
             _ => (),
         }
     }
-
     ret
 }
 
@@ -134,7 +149,7 @@ pub fn module_declaration_nonansi(
         ports: Vec::new(),
         instances: Vec::new(),
         filepath: String::from(_filepath),
-        comments: None,
+        comments: Vec::new(),
     };
     // TODO
     ret

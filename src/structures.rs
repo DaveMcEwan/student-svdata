@@ -14,7 +14,7 @@ pub struct SvModuleDeclaration {
     pub ports: Vec<SvPort>,
     pub instances: Vec<SvInstance>,
     pub filepath: String,
-    pub comments: Option<Vec<String>>,
+    pub comments: Vec<Vec<String>>,
 }
 
 #[derive(Debug, Serialize, Clone)]
