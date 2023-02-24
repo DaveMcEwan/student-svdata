@@ -2,6 +2,7 @@
 modules:
   - identifier: TestModule_A
     parameters: []
+    comments: []
     ports:
       - identifier: a
         direction: Input
@@ -78,6 +79,7 @@ modules:
     instances: []
     filepath: testcases/semantics/sv/ansi_module_package_common_file0.sv
   - identifier: TestModule_B
+    comments: []
     parameters:
       - identifier: a
         expression: "8'sb10101010"

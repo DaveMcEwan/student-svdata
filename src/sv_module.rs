@@ -26,10 +26,12 @@ pub fn module_declaration_ansi(
         let node = match event {
             NodeEvent::Enter(x) => {
                 parent_stack.push(x.to_string());
+                _entering = true;
                 x
             }
             NodeEvent::Leave(x) => {
                 parent_stack.pop();
+                _entering = false;
                 x
             }
         };
