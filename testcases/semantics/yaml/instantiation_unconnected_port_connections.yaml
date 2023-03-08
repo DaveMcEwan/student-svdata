@@ -2,6 +2,7 @@
 modules:
   - identifier: M
     parameters: []
+    comments: []
     ports: []
     instances:
       - module_identifier: I

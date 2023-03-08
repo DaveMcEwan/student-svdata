@@ -3,6 +3,7 @@
     {
       "identifier": "mkM1",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "a_in",
@@ -35,6 +36,7 @@
     {
       "identifier": "mkM2",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "b_in",
@@ -83,6 +85,7 @@
     {
       "identifier": "mkM3",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "c_in",
@@ -146,6 +149,7 @@
     {
       "identifier": "mkM4",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "d_in",

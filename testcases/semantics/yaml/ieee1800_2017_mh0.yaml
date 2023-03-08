@@ -2,6 +2,7 @@
 modules:
   - identifier: mh0
     parameters: []
+    comments: []
     ports:
       - identifier: x
         direction: Inout

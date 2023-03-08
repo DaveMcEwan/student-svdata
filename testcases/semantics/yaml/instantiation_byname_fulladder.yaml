@@ -2,6 +2,7 @@
 modules:
   - identifier: fulladd
     parameters: []
+    comments: []
     ports:
       - identifier: s
         direction: Output
@@ -57,6 +58,7 @@ modules:
     filepath: testcases/semantics/sv/instantiation_byname_fulladder.sv
   - identifier: fulladder_4bit
     parameters: []
+    comments: []
     ports:
       - identifier: sum
         direction: Output

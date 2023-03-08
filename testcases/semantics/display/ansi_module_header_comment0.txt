@@ -1,7 +1,7 @@
 Module:
   Identifier: TestModule
-  Filepath: testcases/semantics/sv/ansi_port_comment_keyword1.sv
-  Comments: []
+  Filepath: testcases/semantics/sv/ansi_module_header_comment0.sv
+  Comments: ["/* FOO */", "/* Bar */", "/**\n * TestModule\n *\n * This is a test module.\n */"]
   Port: 
     Identifier: a
     Direction: Input

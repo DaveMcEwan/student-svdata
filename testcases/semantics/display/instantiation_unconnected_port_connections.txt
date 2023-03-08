@@ -1,6 +1,7 @@
 Module:
   Identifier: M
   Filepath: testcases/semantics/sv/instantiation_unconnected_port_connections.sv
+  Comments: []
   Instance: 
     Module identifier: I
     Hierarchical instance: u_I

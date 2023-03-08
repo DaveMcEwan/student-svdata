@@ -2,6 +2,7 @@
 modules:
   - identifier: mh18
     parameters: []
+    comments: []
     ports:
       - identifier: x
         direction: Output

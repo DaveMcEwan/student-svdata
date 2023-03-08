@@ -3,7 +3,6 @@
     {
       "identifier": "TestModule",
       "parameters": [],
-      "comments": [],
       "ports": [
         {
           "identifier": "a",
@@ -145,7 +144,12 @@
         }
       ],
       "instances": [],
-      "filepath": "testcases/semantics/sv/ansi_port_comment_keyword1.sv"
+      "filepath": "testcases/semantics/sv/ansi_module_header_comment0.sv",
+      "comments": [
+        "/* FOO */",
+        "/* Bar */",
+        "/**\n * TestModule\n *\n * This is a test module.\n */"
+      ]
     }
   ],
   "packages": []

@@ -3,6 +3,7 @@
     {
       "identifier": "TestModule_A",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "a",
@@ -111,6 +112,7 @@
     },
     {
       "identifier": "TestModule_B",
+      "comments": [],
       "parameters": [
         {
           "identifier": "a",

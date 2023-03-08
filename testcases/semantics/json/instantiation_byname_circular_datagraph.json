@@ -3,6 +3,7 @@
     {
       "identifier": "m0",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "s_in",
@@ -52,6 +53,7 @@
     {
       "identifier": "m1",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "c_in",
@@ -96,6 +98,7 @@
     {
       "identifier": "m2",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "w_in",
@@ -140,6 +143,7 @@
     {
       "identifier": "testmodule",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "o",

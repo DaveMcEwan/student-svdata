@@ -3,6 +3,7 @@
     {
       "identifier": "mh18",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "x",

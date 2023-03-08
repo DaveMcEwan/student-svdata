@@ -2,6 +2,7 @@
   "modules": [
     {
       "identifier": "TestModule_A",
+      "comments": [],
       "parameters": [
         {
           "identifier": "a",
@@ -110,6 +111,8 @@
     {
       "identifier": "TestModule_B",
       "parameters": [],
+      "comments": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "a",

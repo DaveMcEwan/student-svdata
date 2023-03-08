@@ -2,6 +2,7 @@
 modules:
   - identifier: mh5
     parameters: []
+    comments: []
     ports:
       - identifier: x
         direction: Input

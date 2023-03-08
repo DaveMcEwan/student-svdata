@@ -2,6 +2,7 @@
 modules:
   - identifier: mh19
     parameters: []
+    comments: []
     ports:
       - identifier: x
         direction: Ref

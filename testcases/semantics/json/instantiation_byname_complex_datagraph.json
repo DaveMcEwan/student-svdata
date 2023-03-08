@@ -3,6 +3,7 @@
     {
       "identifier": "M1",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in1_1",
@@ -35,6 +36,7 @@
     {
       "identifier": "M2",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in2_1",
@@ -79,6 +81,7 @@
     {
       "identifier": "M3",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in3_1",
@@ -135,6 +138,7 @@
     {
       "identifier": "M4",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in4_1",
@@ -210,6 +214,7 @@
     {
       "identifier": "M5",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in5_1",
@@ -289,6 +294,7 @@
     {
       "identifier": "M6",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in6_1",
@@ -372,6 +378,7 @@
     {
       "identifier": "M7",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in7_1",
@@ -479,6 +486,7 @@
     {
       "identifier": "M8",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "in8_1",

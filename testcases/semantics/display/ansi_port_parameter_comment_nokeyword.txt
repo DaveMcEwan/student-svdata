@@ -1,6 +1,7 @@
 Module:
   Identifier: TestModule
   Filepath: testcases/semantics/sv/ansi_port_parameter_comment_nokeyword.sv
+  Comments: []
   Parameter: 
     Identifier: a
     Expression: None

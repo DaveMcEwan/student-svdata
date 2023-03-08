@@ -3,6 +3,7 @@
     {
       "identifier": "mh10",
       "parameters": [],
+      "comments": [],
       "ports": [
         {
           "identifier": "x",

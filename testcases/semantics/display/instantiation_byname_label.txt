@@ -1,6 +1,7 @@
 Module:
   Identifier: foo
   Filepath: testcases/semantics/sv/instantiation_byname_label.sv
+  Comments: []
   Port: 
     Identifier: a
     Direction: Input
